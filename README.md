@@ -7,31 +7,15 @@
 * 编译
 
 ```bash
-make
-```
-
-* 编译发布版
-
-```bash
+make clear
 make release=1
-```
-
-* 运行
-
-```bash
-make run
-```
-
-* gdb调试
-
-```bash
-make debug
 ```
 
 > 暂不支持交叉编译和调试
 
 ## 依赖项
 
+* doas
 * nbd
 * qemu
 
